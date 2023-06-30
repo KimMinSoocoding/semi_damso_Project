@@ -1,0 +1,58 @@
+package com.kseolha.mapper;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.kseolha.domain.ClubVO;
+
+import lombok.extern.log4j.Log4j;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
+@Log4j
+public class ClubMapperTests {
+	
+	@Autowired
+	private ClubMapper clubMapper;
+	
+/*	@Test
+	public void testInsert() {
+		ClubVO vo = new ClubVO();
+		vo.setCname("황금돼지띠 엄마 모임");
+		vo.setCleader("test2");
+		vo.setStatus(false);
+		clubMapper.insert(vo);
+		log.info(vo);
+	}*/
+
+/*	@Test
+	public void testGetList() {
+		clubMapper.getList().forEach(log::info);
+	}*/
+	
+/*	@Test
+	public void testUpdate() {
+		ClubVO vo = clubMapper.read("황금돼지띠 엄마 모임");
+		vo.setIntro("육아 정보 공유해요^^");
+		clubMapper.update(vo);
+		log.info(vo);
+	}*/
+	
+/*	@Test
+	public void testGet() {
+		clubMapper.read("상추모임");
+	}*/
+
+/*	@Test
+	public void testDelete() {
+		log.info(clubMapper.delete("상추모임"));
+	}*/
+	
+	
+	
+	
+	
+}

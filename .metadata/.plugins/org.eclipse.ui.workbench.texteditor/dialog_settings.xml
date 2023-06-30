@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="remove-btn"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="remove-btn"/>
+			<item value="idCheck2"/>
+			<item value="mail_check_button"/>
+			<item value="idCheck1"/>
+			<item value="profile_name"/>
+			<item value="clubName"/>
+			<item value="toastr"/>
+			<item value="AuthenticationPrincipal"/>
+			<item value="mail_input"/>
+			<item value="pwEncoder"/>
+			<item value="&quot;email_check&quot;"/>
+			<item value="email_check"/>
+			<item value="mailFormCheck"/>
+			<item value="go_findPw"/>
+			<item value="&quot;go_findPw&quot;"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="96"/>
+		<item key="DIALOG_Y_ORIGIN" value="220"/>
+		<item key="DIALOG_WIDTH" value="292"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

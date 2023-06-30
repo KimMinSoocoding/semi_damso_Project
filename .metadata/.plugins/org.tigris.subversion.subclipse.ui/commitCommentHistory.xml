@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>contextPath 수정 </CommitComment>
+	<CommitComment>${pageContext.request.contextPath} 추</CommitComment>
+	<CommitComment>Controller, serviceImpl, deleteMember.jsp 회원탈퇴 진행구현 </CommitComment>
+	<CommitComment>id 찾기 js 추가 </CommitComment>
+	<CommitComment>singup.jsp -&gt; 유효성 검사 보완</CommitComment>
+	<CommitComment>오류수정</CommitComment>
+	<CommitComment>회원수정시 세션내용변경 </CommitComment>
+	<CommitComment>deleteMember.jsp</CommitComment>
+	<CommitComment>회원가입 , 로그인 유효성검사 수정 
+회원탈퇴 로직 진행 
+프로필편집 수정 </CommitComment>
+	<CommitComment>회원가입</CommitComment>
+</CommitComments>

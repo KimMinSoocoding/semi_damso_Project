@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="passwordStores.location.x" value="284"/>
+	<item key="passwordStores.location.y" value="44"/>
+	<item key="passwordStores.size.x" value="1030"/>
+	<item key="passwordStores.size.y" value="573"/>
+	<item key="CommitDialog.location.x" value="243"/>
+	<item key="CommitDialog.location.y" value="94"/>
+	<item key="CommitDialog.size.x" value="1115"/>
+	<item key="CommitDialog.size.y" value="723"/>
+	<item key="CommitDialog.weights.0" value="500"/>
+	<item key="CommitDialog.weights.1" value="500"/>
+	<item key="UpdateDialogWithConflictHandling.location.x" value="642"/>
+	<item key="UpdateDialogWithConflictHandling.location.y" value="98"/>
+	<item key="UpdateDialogWithConflictHandling.size.x" value="586"/>
+	<item key="UpdateDialogWithConflictHandling.size.y" value="766"/>
+	<item key="HistoryDialog.location.x" value="735"/>
+	<item key="HistoryDialog.location.y" value="215"/>
+	<item key="HistoryDialog.size.x" value="400"/>
+	<item key="HistoryDialog.size.y" value="400"/>
+	<item key="HistoryDialog.weights.0" value="200"/>
+	<item key="HistoryDialog.weights.1" value="200"/>
+	<item key="HistoryDialog.weights.2" value="200"/>
+	<item key="HistoryTableProvider.HistoryDialog.Revision" value="42"/>
+	<item key="HistoryTableProvider.HistoryDialog.Date" value="102"/>
+	<item key="HistoryTableProvider.HistoryDialog.Author" value="82"/>
+	<item key="HistoryTableProvider.HistoryDialog.Comment" value="205"/>
+	<item key="RevertDialog.location.x" value="426"/>
+	<item key="RevertDialog.location.y" value="249"/>
+	<item key="RevertDialog.size.x" value="586"/>
+	<item key="RevertDialog.size.y" value="643"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="http://np.kseolha.com:81/svn/SNS"/>
+		</list>
+	</section>
+	<section name="CommitWizard">
+		<item key="VWeight1" value="500"/>
+		<item key="VWeight2" value="500"/>
+		<item key="ShowCompare" value="false"/>
+	</section>
+</section>

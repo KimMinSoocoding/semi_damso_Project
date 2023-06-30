@@ -1,0 +1,1222 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title>담소 - 담아요 소소한 이야기</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="keywords">
+	<meta content="" name="description">
+
+	<!-- Favicon -->
+	<link
+			href="/resources/img/favicon.ico"
+			rel="icon">
+
+	<!-- Google Web Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap"
+			rel="stylesheet">
+	<link
+			href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap"
+			rel="stylesheet">
+
+	<!-- Icon Font Stylesheet -->
+	<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+			rel="stylesheet">
+	<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+			rel="stylesheet">
+
+	<!-- Libraries Stylesheet -->
+	<link
+			href="/resources/lib/owlcarousel/assets/owl.carousel.min.css"
+			rel="stylesheet">
+	<link
+			href="/resources/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+			rel="stylesheet" />
+
+	<!-- Customized Bootstrap Stylesheet -->
+	<link
+			href="/resources/css/bootstrap.min.css"
+			rel="stylesheet">
+
+	<!-- Template Stylesheet -->
+	<link
+			href="/resources/css/style230417.css"
+			rel="stylesheet">
+
+	<!-- editor -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor5/37.0.1/ckeditor.min.js" integrity="sha512-u1sLXXwUefvooLCurgZpkZnSlf4Q3DJ4hIzrpB4mXFdbKsGbcekHI1x2G+ZDSVPj1r2wGnW+takK8AcAVDlqfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor5/37.0.1/translations/af.min.js" integrity="sha512-rgMJ9d5QsgyLPmGUJgwHo5XbE690dL8rEuYVauZJEKhhImh1blMLpnS0ybAsOilt2xM14jO+AsTsdQH8ULbQEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	<!-- bxslider -->
+	<link rel="stylesheet"
+		  href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script
+			src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<!-- dropdown -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		textarea::placeholder, input::placholder {
+			color: #b1b1b1 !important;
+		}
+		.nav-item {
+			font-size: 17px;
+			padding: 7px;
+		}
+
+		.sidebar .navbar .navbar-nav .nav-link i {
+			width: 40px;
+			height: 45px;
+			color: rgb(192, 202, 191);
+		}
+
+		.sidebar .navbar .navbar-nav .nav-link:active i, .sidebar .navbar .navbar-nav .nav-link:hover i
+		{
+			color: #454843;
+		}
+
+		.main_logo {
+			margin: auto;
+			margin-left: 0;
+			padding: 10px 0 50px 0;
+		}
+
+		.sub-nav {
+			display: none;
+			width: 380px;
+			height: 100%;
+			z-index: 200;
+			position: absolute;
+			top: 0;
+			background-color: white;
+			border: solid #e8e8e8 1px;
+			right: -380px;
+			border-bottom-right-radius: 20px;
+			border-top-right-radius: 20px;
+			overflow-y: auto;
+		}
+
+		.submenu-title {
+			width: 100%;
+			height: 180px;
+			padding: 30px;
+			padding-bottom: 10px;
+			margin: 0;
+			border-bottom: solid #e8e8e8 2px;
+			margin: 0;
+		}
+
+		.clublist {
+			width: 100%;
+			height: 100%;
+			flex-direction: column;
+		}
+
+		.clublist a {
+			width: 100%;
+			color: #757575;
+		}
+
+		.select-club {
+			font-size: 18px;
+			width: 100%;
+			height: 70px;
+			padding: 10px 30px;
+		}
+
+		.submenu-search {
+			width: 100%;
+			margin: 0 auto;
+			flex-direction: column;
+			margin-top: 35px;
+		}
+
+		.submenu-search input {
+			height: 40px;
+			border-radius: 7px;
+			background-color: #ededed;
+			border: none;
+			padding: 0 15px 3px;
+		}
+
+		.submenu-search i {
+			position: absolute;
+			right: 14px;
+			font-size: 20px;
+			top: 9px;
+			cursor: pointer;
+		}
+
+		.submenu-search i:hover, .clublist a:hover {
+			color: #fdb2b5;
+		}
+
+		.select-club img {
+			margin-right: 15px;
+		}
+	</style>
+
+</head>
+
+<body>
+<div class="position-relative bg-white d-flex p-0">
+
+	<!-- Sidebar Start -->
+	<div class="sidebar pe-4 pb-3"
+		 style="background-color: white; border-right: #dee2e6 solid 1px">
+		<nav class="navbar navbar-light">
+			<div class="main_logo">
+				<a href="/board/feed" class="navbar-brand mx-4 mb-3"> <img
+						src="/resources/img/logo_text.png">
+				</a>
+			</div>
+			<div class="navbar-nav w-100 dropdown">
+				<a href="/board/feed" class="nav-item nav-link"><i
+						class="fas fa-home me-2 fa-lg"></i><span class="nav-text">홈</span></a>
+				<a class="nav-item nav-link nav-search"><i
+						class="fas fa-search me-2 fa-lg"></i><span class="nav-text">검색</span></a>
+				<a class="nav-item nav-link nav-club"> <i
+						class="fa fa-seedling me-2 fa-lg "></i> <span class="nav-text">모임</span></a>
+				<a class="nav-item nav-link nav-message"><i
+						class="fas fa-paper-plane me-2 fa-lg"></i><span class="nav-text">메시지</span></a>
+				<a class="nav-item nav-link nav-noti"><i
+						class="fas fa-heart me-2 fa-lg"></i><span class="nav-text">알림</span></a>
+				<a class="nav-item nav-link"><i
+						class="far fa-plus-square me-2 fa-lg"></i><span class="nav-text">만들기</span></a>
+				<a href="/member/profile"class="nav-item nav-link"><i
+						class="fas fa-user-circle me-2 fa-lg"></i><span class="nav-text">프로필</span></a>
+			</div>
+		</nav>
+		
+		<div class="sub-nav">
+			<!-- 모임 탭 화면 -->
+			<div class="club-submenu" style="display:none">
+				<div class="submenu-title">
+					<h4 class="float-start pb-4 mb-4">모임</h4>
+					<a class="club-create float-end mt-1">
+						<i class="fas fa-seedling"></i> 모임 만들기
+					</a>
+					<div class="input-group submenu-search">
+						<input class="club-search" type="text" placeholder="모임 이름 검색"> <i
+							class="fas fa-search"></i>
+					</div>
+				</div>
+				<div class="clublist media">
+					<div class="clublist-title p-4 pb-3 fw-bold">나의 모임</div>
+				</div>
+			</div>
+			
+			<!-- 검색 탭 화면 -->
+			<div class="search-submenu" style="display:none">
+				<div class="submenu-title">
+					<h4 class="float-start pb-4 mb-4">검색</h4>
+					<div class="input-group submenu-search">
+						<input class="board-search" type="text" placeholder="글 내용 #태그 @작성자 검색"> <i
+							class="fas fa-search"></i>
+					</div>
+				</div>
+				<div class="boardsearch-list media">
+					<div class="boardsearch-title p-4 pb-3 fw-bold">검색 값을 입력해주세요</div>
+				</div>
+			</div>
+			
+			<!-- 알림 탭 화면 -->
+			<div class="noti-submenu" style="display:none">
+				<div class="submenu-title" style="height:107px">
+					<h4 class="float-start pb-4 mb-4">알림</h4>
+				</div>
+				<div class="noti-list media">
+					<div class="noti-title p-4 pb-3 fw-bold">최근 알림</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Sidebar End -->
+
+	<div class="modal fade" id="attachModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content" style="flex-direction: row; flex-wrap: wrap; border-radius: 10px;">
+				<div class="col-12 text-center" style="height: 50px">
+					새 게시물 만들기
+				</div>
+				<div class="justify-content-center align-middle" style="height: 400px">
+					<button class="btn btn-primary">사진 선택</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 글쓰기 폼 Start -->
+	<div class="modal fade" id="write-modal" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content" style="flex-direction: row; flex-wrap: wrap; border-radius: 10px;">
+				<div class="col-12" style="height: 38px">
+					<a> <i class="fas fa-arrow-left float-start pt-2"
+						   style="font-size: 22px; padding-left: 10px"></i>
+					</a>
+					<button type="button" id="register" class="float-end btn text-primary" style="padding: 8px 12px 0">글쓰기</button>
+				</div>
+				<div id="imgInsert" class="col-7 align-items-md-center" style="display: flex; justify-content: space-evenly;">
+					<label for="file"><span class="btn btn-primary">사진 선택</span></label>
+					<input type="file" class="form-control" id="file" name="file" style="display: none">
+				</div>
+				<div class="col-5">
+					<div class="media p-3">
+						<div class="d-flex">
+							<a href=""> <img class="write-img" src="/resources/img/attach.jpg">
+							</a>
+						</div>
+						<div class="media-body" style="padding-top: 2px">
+							
+							<span class="">test7</span>
+						</div>
+					</div>
+					<div>
+						<textarea id="board-content" placeholder="소소한 이야기를 담아보세요"></textarea>
+					</div>
+					<div onclick="location.href=''" class="write-option">
+						<span class=" float-start pt-1 ps-3">위치 추가</span><i
+							class="fas fa-map-marker-alt float-end p-3"
+							style="margin-top: -8px"></i>
+					</div>
+					<div onclick="location.href=''" class="write-option"
+						 style="height: 45.6px">
+						<span class=" float-start pt-2 ps-3">태그 추가</span><i
+							class="fas fa-hashtag float-end p-3" style="margin-top: -2px"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 글쓰기 폼 End -->
+	
+		
+	<!-- 모임 만들기 폼 Start -->
+	<div class="modal fade" id="clubcreate-modal" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" style="width: 700px;"
+			role="document">
+			<div class="modal-content p-3" style="flex-direction: row; flex-wrap: wrap; border-radius: 10px;">
+				<form class="col-10 m-auto d-flex flex-row flex-wrap" name="clubcreate-form" id="clubcreate-form">
+					<div class="col-12 h-25 my-4 d-flex flex-column align-items-start">
+						<label class="" for="cname">모임 이름</label>
+						<input class="col-12 h-75 p-2 border-0 border-bottom" type="text" id="cname" name="cname">
+					</div>
+					<div class="club-attach col-6 bg-light mb-4 d-flex justify-content-center align-items-center" style="height: 300px; cursor:pointer">
+						<i class="fas fa-image fs-3"></i>
+					</div>
+					<div class="col-6 d-flex flex-column p-3 pt-0 align-items-start">
+						<label class="py-2 col-12" for="intro">모임 소개</label>
+						<textarea class="h-25 border col-12" id="intro" name="intro"></textarea>
+						<label class="py-2 col-12" for="town">모임 동네</label>
+						<input class="border col-12" type="text" id="town" name="town">
+						<label class="py-2 col-12">#해시태그</label>
+						<input class="border col-12" type="text" id="clubTag" name="clubTag">
+						<div class="col-12 py-2 mt-2 d-flex align-items-center justify-content-end">
+							<label class="py-2 pe-2" for="status">비밀 모임 설정</label>
+							<input class="pt-1" type="checkbox" id="status" name="status" style="width:16px; height:16px;">
+						</div>
+						<input type="hidden" id="cleader" name="cleader">
+					</div>
+					<div class="col-12 d-flex justify-content-end pe-3 py-1 mb-2">
+						<button class="p-2 px-3 btn border-0 bg-light">만들기</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- 모임 만들기 폼 End -->
+	
+	
+
+	<script> let cp = '/'</script>
+	<script src="/resources/js/board.js"></script>
+	<script src="/resources/js/club.js"></script>
+	<script src="/resources/js/member.js"></script>
+
+	<script>
+		$(function() {
+			moment.locale('ko')
+			
+	/*-------------------------- 탭 토글 -------------------------- */			
+			function allNavClose() {
+				if($(".sub-nav").css('display') == 'block'){
+					$(".sub-nav").children().css('display', 'none')
+				}
+			}		
+	
+	
+			// 검색 탭 선택 화면 토글
+			$(".nav-search").click(function() {
+				if($(".search-submenu").css('display') == 'none') {
+					allNavClose();
+					$(".sub-nav").css('display', 'block')
+					$(".search-submenu").css('display', 'block')
+				} else {
+					$(".sub-nav").css('display', 'none')					
+					$(".search-submenu").css('display', 'none')
+				}
+			})
+			
+			// 모임 탭 선택 화면 토글
+			$(".nav-club").click(function() {
+				if($(".club-submenu").css('display') == 'none') {
+					allNavClose();
+					$(".sub-nav").css('display', 'block')
+					$(".club-submenu").css('display', 'block')
+				} else {
+					$(".sub-nav").css('display', 'none')					
+					$(".club-submenu").css('display', 'none')
+				}
+			})
+
+			// 알림 탭 선택 화면 토글
+			$(".nav-noti").click(function() {
+				if($(".noti-submenu").css('display') == 'none') {
+					allNavClose();
+					$(".sub-nav").css('display', 'block')
+					$(".noti-submenu").css('display', 'block')
+				} else {
+					$(".sub-nav").css('display', 'none')					
+					$(".noti-submenu").css('display', 'none')
+				}
+			})
+			
+			// DM 탭 선택 화면 토글
+			$(".nav-message").click(function() {
+				location.href = cp + "message/direct"
+			})
+
+
+	/*-------------------------- 회원 탭-------------------------- */
+			function getMyMemberListStr(obj){
+				return `
+					<a href= "/member/profile/${obj.email}">
+						<div class="select-club d-flex align-items-center justify-content-between" style="font-size:16px">
+						<img class="img-fluid rounded-circle m-0 me-3"
+							src="../../../resources/img/attach.jpg" alt="User"> 
+						<span style="display:inline-flex; width:190px">${obj.id}</span>
+						<div class="privateClub ms-auto px-2"></div>
+						<div class="clubleader"></div>
+						</div>
+					</a>`;
+			}
+			
+			/* 회원 검색하기 */		
+			$(".board-search").on("input", function() {
+				let id = $(".board-search").val();
+				$(".boardsearch-list").html('<div class="boardsearch-title p-4 pb-3 fw-bold" style="color:#72a3d4">회원 목록</div>');
+				memberservice.searchName({id: id}, function(result) {
+					
+						for(let i in result){
+							var str = '';
+							str = getMyMemberListStr(result[i]);
+							console.log(str)
+							$(".boardsearch-list").append(str);
+						}
+				})			
+			})
+			
+	/*-------------------------- 모임 탭-------------------------- */
+			
+			/* 모임 검색하기 */		
+			$(".club-search").on("input", function() {
+				
+				let keyword = $(".club-search").val();
+				
+				$(".clublist").html('<div class="clublist-title p-4 pb-3 fw-bold" style="color:#72a3d4">검색 결과</div>');
+				clubService.searchName({keyword: keyword}, function(result) {
+
+					if(keyword == ""){
+						clubListPrint();
+					}
+					else {
+						for(let i in result){
+							var str = '';
+							str = getMyClubListStr(result[i]);
+							/* 모임장일 경우 클래스 변경 clubleader -> clubleader-on */
+		  					if(result[i].cleader == 'test7'){
+								str = str.replace('clubleader', 'clubleader-on')
+		 					}  							
+							$(".clublist").append(str);
+						}
+							
+						/* 모임장 아이콘 추가 */
+						$(".clubleader-on").html('<i class="fas fa-crown"></i>');
+					}
+				})			
+			})
+	
+	
+			/* 모임 리스트 Str 분리 메서드 */
+			function getMyClubListStr(obj){
+				return `
+					<a href= "/club/get/${obj.cno}">
+						<div class="select-club d-flex align-items-center justify-content-between" style="font-size:16px">
+						<img class="img-fluid rounded-circle m-0 me-3"
+							src="../../../resources/img/attach.jpg" alt="User"> 
+						<span style="display:inline-flex; width:190px">${obj.cname}</span>
+						<div class="privateClub ms-auto px-2"></div>
+						<div class="clubleader"></div>
+						</div>
+					</a>`;
+			}
+			
+			/* 모임탭 클릭시 : 해당 이용자의 모임 리스트 출력 */
+			$(".nav-club").on("click", function() {
+				clubListPrint();
+			})
+			
+			function clubListPrint() {
+				if('true'){
+					clubService.getMyClubList({email: encodeURIComponent('test7')}, function(result){
+						$(".clublist").html('<div class="clublist-title p-4 pb-3 fw-bold">나의 모임</div>') 
+						for(let i in result){
+							var str = '';
+							str = getMyClubListStr(result[i]);
+							/* 모임장일 경우 클래스 변경 clubleader -> clubleader-on */
+		  					if(result[i].cleader == 'test7'){
+								str = str.replace('clubleader', 'clubleader-on')
+		 					}  							
+							if(result[i].status == 1){
+								str = str.replace('privateClub', 'privateClub-on')
+							}
+							$(".clublist").append(str);
+						}
+							
+						/* 모임장 아이콘 추가 */
+						$(".clubleader-on").html('<i class="fas fa-crown"></i>');
+						/* 비밀클럽 아이콘 추가 */
+						$(".privateClub-on").html('<i class="fas fa-lock"></i>');
+					})
+				}
+			}
+
+
+			/* 모임 만들기 클릭 -> 모달 메서드*/
+			$(".club-create").on("click", function() {
+				$("#clubcreate-modal").modal("show")
+				$("#clubcreate-form").submit(function() {
+					event.preventDefault();
+					
+				/* status의 체크유무 값이 받아와지지 않아서 만든 메서드 */
+				let checked = $("#status").is(':checked');
+				if(checked){
+					$("#status").val('true')
+				} else {
+					$("#status").val('false')
+				}
+					
+ 				clubService.register({
+					cname : $("#cname").val(),
+					intro : $("#intro").val(),
+					cleader : 'test7',
+					town : $("#town").val(),
+					status : $("#status").val()
+				},
+				function(result) {
+					clubMemberService.register({
+						member : result.cleader,
+						club : result.cno
+					}, function(resultCM) {
+						$(".clublist").append(getMyClubListStr(result))
+						})
+						$("#clubcreate-modal").modal("hide")
+						location.href = cp + "club/get/" + result.cno
+					}) 
+				})
+			})
+
+
+
+			/*-------------------------- 만들기 탭-------------------------- */
+
+			// 만들기(글 쓰기) 탭 클릭 이벤트
+			$(".fa-plus-square").closest("a").click(function () {
+				event.preventDefault();
+
+				$("#write-modal").modal("show")
+				$("#write-modal").on("click", "#register", function () {
+					event.preventDefault()
+
+					if (!$("#imgInsert input").value) {
+						alert("사진을 추가해주세요!")
+						return false;
+					}
+
+					let attaches = [];
+					$("#imgInsert li").each(function (i, obj) {
+						attaches.push({
+							name : $(this).data("name"),
+							path : $(this).data("path"),
+							uuid : $(this).data("uuid"),
+							image : $(this).data("image")
+						})
+					})
+
+					boardService.register({content : $("#board-content").val(), writer : 'test7', category : null, attaches : attaches}, function (result) {
+						$("#write-modal").modal("hide")
+
+						boardService.get(result, function (data) {
+							$(".boards").prepend(getBoardLiStr(data))
+						})
+					})
+					$("#board-content").val("")
+					let input = `
+						<label for="file"><span class="btn btn-primary">사진 선택</span></label>
+						<input type="file" class="form-control" id="file" name="file" style="display: none">
+					`
+					$("#imgInsert").empty().html(input);
+
+					/* if(위치가 board/feed가 아니라면) board/feed로 이동하게 하기 */
+					if (location.pathname !== "/board/feed") {
+						location.href = cp + "board/feed"
+					}
+				})
+			})
+
+			$("#write-modal").on('hidden.bs.modal', function () {
+				let input = `
+						<label for="file"><span class="btn btn-primary">사진 선택</span></label>
+						<input type="file" class="form-control" id="file" name="file" style="display: none">
+					`
+				$("#imgInsert").empty().html(input);
+
+				$("#write-modal input[type='file']").val('')
+			})
+
+			function showUploadedFile(uploadResultArr) {
+				// let str = "";
+				let imgStr = "";
+				for(let i in uploadResultArr) {
+					let obj = uploadResultArr[i];
+					obj.thumb = "on";
+					let params = new URLSearchParams(obj).toString();
+					// str += `<li class='list-group-item' data-uuid='${obj.uuid}' data-name='${obj.name}' data-path='${obj.path}' data-image='${obj.image}'><a href='/download?` + params + `'><i class='far fa-file'></i> `
+					// str += obj.name + "</a> <i class='far fa-times-circle btn-remove' data-file='" + params + "' style='cursor:pointer'></i> </li>"
+					if (obj.image) {
+						obj.thumb = "off";
+						let params2 = new URLSearchParams(obj).toString();
+						imgStr += '<li class="nav-item m-2" data-uuid="' + obj.uuid +'" data-name="' + obj.name + '" data-path="' + obj.path + '" data-image="' + obj.image + '" style="list-style: none"><a class="img-thumb" href=""><img class="img-thumbnail" src="/display?' + params  + '" data-src="'+ params2 +'" ></a></li>';
+					}
+				}
+				// 내부적으로 스트림 사용
+				$("#imgInsert").empty().html(imgStr);
+				// $(":file").get(0).reset()
+			}
+
+			function checkExtension(files) {
+				const MAX_SIZE = 5 * 1024 * 1024;
+				const EXCLUDE_EXT = new RegExp("(.*?)\.(js|jsp|asp|php)");
+
+				for (let i in files) {
+					if (files[i].size >= MAX_SIZE || EXCLUDE_EXT.test(files[i].name)) {
+						return false;
+					}
+				}
+				return true
+			}
+
+			$("#imgInsert").on("change", "input[type='file']", function () {
+				event.preventDefault();
+				let files = $(this).get(0).files;
+				console.log(files);
+
+				if (!checkExtension(files)) {
+					alert("조건 불일치")
+					return false;
+				}
+
+				let formData = new FormData();
+
+				for (let i in files) {
+					console.log(files[i])
+					formData.append("files", files[i])
+				}
+
+				$.ajax({
+					url : "/uploadAjax",
+					method : "post",
+					processData: false,
+					contentType : false,
+					data : formData,
+					success : function (data) {
+						console.log(data)
+						$("form").get(0).reset();
+						showUploadedFile(data)
+					}
+				})
+			})
+
+			// 글 쓰기 str 분리
+			function getBoardLiStr(obj) {
+				let hasLike = obj.likeOn;
+				let like = hasLike ? 'fas\" style=\"color: red' : 'far';
+
+				return `
+			<div class="myboard" data-bno="${obj.bno}">
+
+				<div class="cardbox-header py-2">
+
+					<div class="float-end">
+						<button class="btn btn-flat btn-flat-icon" type="button">
+							<i class="fas fa-ellipsis-h"></i>
+						</button>
+					</div>
+
+					<div class="media m-0">
+						<div class="d-flex mr-3">
+							<a href=""><img class="img-fluid rounded-circle"
+											src="../../../resources/img/attach.jpg"
+											alt="User"></a>
+						</div>
+						<div class="media-body">
+							<p class="m-0">${obj.writer}</p>
+							<small><span><i class="icon ion-md-pin"></i>
+								${obj.bno}</span></small> <small><span><i
+								class="icon ion-md-time"></i>${moment(obj.regdate).fromNow()}</span></small>
+						</div>
+					</div>
+				</div>
+				<div class="cardbox-item">
+					<img class="img-fluid"
+						 src="/display?name=${obj.attaches[0]['name']}&path=${obj.attaches[0]['path']}&uuid=${obj.attaches[0]['uuid']}&image=${obj.attaches[0]['image']}&thumb=on"
+						 alt="Image" style="width:100%; max-height:587.5px">
+				</div>
+				<div class="cardbox-base">
+					<ul class="board-btnbox">
+						<li><a><i data-bno="${obj.bno}" class="far fa-heart"></i></a></li>
+						<li><a><i class="far fa-comment"></i></a></li>
+						<li><a><i class="far fa-paper-plane"></i></a></li>
+						<li><a><i data-bno="${obj.bno}" class="far fa-bookmark"></i></a></li>
+					</ul>
+					<div>
+						<p style="margin-bottom:5px">좋아요 ${obj.likecnt}개</p>
+					</div>
+					<div class="feed-detail" data-bno="${obj.bno}">
+						<a class="feed-writer">${obj.writer}</a><span class="board-content" style="padding: 5px">${obj.content}</span>
+						<a class="reply-view"><p>댓글 ${obj.replycnt}개 모두 보기</p></a>
+					</div>
+					<div>
+						<input type="text" class="reply-add" placeholder="댓글 달기.." />
+					</div>
+				</div>
+			</div>
+			`
+			}
+
+		})
+	</script>
+	<!-- Content Start -->
+	<div class="content">
+<link
+		href="/resources/css/styleBoard_230407.css"
+		rel="stylesheet">
+
+<style>
+	a {
+		cursor: pointer;
+	}
+	.feed-main {
+		display :flex;
+		justify-content: center;
+	}
+	.myfeed {
+		max-width: 620px;
+	}
+	.story {
+		height: auto;
+		display: flex;
+		padding: 45px 0 20px;
+		justify-content: space-around;
+	}
+	.myinfo {
+		width: 250px;
+		height: 400px;
+	}
+	.story-img, .media .info-img {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		border: white 2px solid;
+		padding: 0;
+	}
+	.story-active {
+		width: 64px;
+		height: 64px;
+		border-radius: 50%;
+		border: #cceabf 2px solid;
+	}
+	.myboard {
+		width : 470px;
+		margin: auto;
+		padding-top: 30px;
+	}
+	.board-btnbox {
+		margin: 0;
+		padding: 10px;
+	}
+	.board-btnbox li {
+		padding-right: 8px;
+	}
+	.board-btnbox li:nth-of-type(4) {
+		float : right;
+		padding-right: 0;
+		margin-right: -23px;
+	}
+	.reply-view, .reply-add {
+		color: #757575;
+		font-size: 15px;
+	}
+	.reply-view p {
+		padding: 5px 0 10px;
+		margin:0;
+	}
+	.reply-add {
+		border: none;
+		width: 100%;
+		margin-left: -2px;
+		padding-bottom: 10px;
+	}
+	.feed-writer, .reply-view:hover, .feed-writer:hover {
+		color: #fdb3b6;
+	}
+	.reply-addbtn {
+		float: right;
+		background-color: white;
+		border: none;
+		cursor: pointer;
+		color: #757575;
+	}
+
+	.write-img {
+		border: none !important;
+		border-radius: 50%;
+		width: 30px !important;
+		height: 30px !important;
+	}
+
+	textarea {
+		border: none;
+		width: 100%;
+		height: 300px;
+		padding: 10px 15px;
+		resize: none;
+		border-bottom: #e9ecef solid 1px;
+	}
+
+	.write-option {
+		height: 40px;
+		border-bottom: solid 1px #e9ecef;
+		cursor: pointer;
+	}
+	
+	.modalscroll {
+ 		overflow-x: hidden; 
+ 		overflow-y: auto;
+  		height: 412.11px;
+ 	}
+ 	
+ 	.modalscroll::-webkit-scrollbar {
+		display: none; /* Chrome, Safari, Opera*/
+	}
+	.search-main img {
+		width: 100%;
+		height: auto;
+	}
+	.profileTab {
+		cursor: pointer;
+	}
+	.modal-heade {
+	    text-align: center;
+	}
+	
+</style>
+
+<div class="search-container d-flex flex-column h-100 w-100 align-items-center">
+
+	<div class="col-12 search-main px-3">
+		<div class="col-12 d-flex flex-column px-4 justify-content-around" style="height:400px">
+			<!-- 추후 반응형 작업 필요 -->
+			<div class="d-flex flex-row align-items-center px-5 mt-4">
+				<!-- 이때 우리 이미지는 전부 1:1로 저장되기때문에 추후에 height auto로 바꾸기!!!! 안바꾸면 반응형에서 찌그러짐 -->
+				<img class="col-3 ms-4" src="/resources/img/attach.jpg"
+					style="width: 150px; height:150px; border-radius:50%">
+				<div class="col-9 d-flex flex-column align-items-start pb-2 ps-4 ms-5">
+					<div class="fs-5 pb-2 fw-bold">test7 
+						<!-- 본인 프로필인 경우에만 -->
+						<button class="btn border-0 p-2 px-3 ms-5 my-3" style="color:white;background-color:#c0cabf;font-size:13px" id="profileModify">프로필 편집</button>
+						<!-- 본인 프로필이 아닌 경우에만 -->
+						<button class="message-btn btn border-0 bg-light p-2 px-3 ms-3 my-3" style="font-size:13px">메시지 보내기</button>
+						<button class="btn border-0 bg-light p-2 px-3 ms-3 my-3" style="font-size:13px"><i class="fas fa-user-plus"></i></button>
+						<i class="fas fa-ellipsis-h ms-3 my-3"></i>
+					</div>
+					<div class="d-flex flex-row pb-3">
+						<div class="pe-4 me-3">게시물 <span class="fw-bold">25</span></div>
+						<div class="pe-4 me-3 " id="followerBtn" >팔로워 <span class="fw-bold">210</span></div>
+						<div class="pe-4 me-3" id="followingBtn">팔로우 <span class="fw-bold">260</span></div>
+					</div>
+					<div class="pt-3 fw-bold">test7 <span class="ps-2">음악가 / 밴드</span></div>
+					<div class="pt-2 border-0 col-12 overflow-hidden" style="height:60px" readonly>By grace, through faith.<br>촬영, 광고 문의 kseolha@seorane.com</div>
+				</div>	
+			</div>
+			
+			<!-- 프로필 상단 탭 : 기능 수정 가능성 有 -->			
+			<div class="col-12 d-flex flex-row flex-align-center text-center mt-4" style="height:50px">
+				<div class="profileTab profileTab-board col-4 m-auto py-2 border-bottom border-3">게시글</div>
+				<div class="profileTab profileTab-club col-4 m-auto py-2 border-bottom">모임</div>
+				<!-- <div class="col-3 m-auto py-2 border-bottom">저장됨</div> -->
+				<div class="profileTab profileTab-tag col-4 m-auto py-2 border-bottom">태그됨</div>
+			</div>
+		</div>
+		
+		<!-- 게시글 목록 Start -->
+		<div class="profile-board col-12 d-flex mt-1 flex-wrap">
+			<!-- 게시글 1 Start -->
+
+			<!-- 게시글 1 End -->
+
+		</div>
+		<!-- 게시글 목록 End -->
+	</div>
+
+	
+	<!-- 댓글 작성 모달 -->
+	<div class="modal fade" id="boardModal" tabindex="-1"
+		 role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg"
+			 role="document">
+			<div class="modal-content" style="flex-direction: row; flex-wrap: wrap; border-radius: 10px;">
+				<div class="col-12" style="height:38px">
+					<a>
+						<i class="fas fa-arrow-left float-start pt-2" style="font-size: 22px; padding-left:10px"></i>
+					</a>
+					
+				</div>
+				<div class="col-7">
+					<img id="detailImage" class="img-fluid" src=""
+						 alt="Image" style="width: auto; height: 100%; max-height: 587.5px; object-fit: cover">
+				</div>
+				<div class="col-5">
+					<div class="media p-3">
+						<div class="d-flex">
+							<a href="">
+								<img class="write-img" src="/resources/img/attach.jpg">
+							</a>
+						</div>
+						<div class="media-body" style="padding-top: 2px;">
+							<span class="" id="writer"></span>
+							<div class="write-option" style="border-bottom: 0">
+								<span class=" float-start pt-1 ps-3" id="content"></span>
+							</div>
+						</div>
+					</div>
+					<div class="modalscroll" style="position: relative;">
+						<ul class="list-group chat">
+							<!-- <li class="list-group-item" style="border:0px solid"></li>  -->
+						</ul>
+						<a class="icn-more" style="position: absolute; right: 0; padding: 10px 25px"><i class="fas fa-plus-circle"></i></a>
+					</div>
+					<div class="modal-footer" id="modalFooter" style="display: flex; justify-content: space-between;">
+						<div style="flex: 8;">
+							<input type="text" class="reply-add reply-modify" style="width: 100%;" id="reply" placeholder="댓글 달기..">
+						</div>
+						<div style="flex: 2; text-align: right;">
+							<button class="btn btn-link" type="button">등록</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- 팔로워 모달 -->
+<div class="modal fade" id="followerModal" tabindex="-1" role="dialog" aria-labelledby="followerModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-heade">
+                <h5 class="modal-title" id="followerModalLabel">팔로워 </h5>
+              
+            </div>
+            <div class="modal-body">
+                <table id="followerTable" class="table table-hover">
+                    <thead>
+                        <tr>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 팔로우 모달 -->
+<div class="modal fade" id="followingModal" tabindex="-1" role="dialog" aria-labelledby="followingModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-heade">
+                <h5 class="modal-title" id="followingModalLabel">팔로잉 </h5>
+            </div>
+            <div class="modal-body">
+                <table id="followingTable" class="table table-hover">
+                    <thead>
+                        <tr>
+ 
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 모임 만들기 폼 Start -->
+	<div class="modal fade" id="profileModifyModal" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" style="width: 700px;"
+			role="document">
+			<div class="modal-content p-3" style="flex-direction: row; flex-wrap: wrap; border-radius: 10px;">
+				<div class="col-10 m-auto d-flex flex-row flex-wrap" name="clubcreate-form" id="clubcreate-form">
+					<div class="col-12 h-25 my-4 d-flex flex-column align-items-start">
+						<label class="" for="cname">회원수정</label>
+						<input class="col-12 h-75 p-2 border-0 border-bottom" type="text" id="cname" name="cname">
+					</div>
+					<div class="club-attach col-6 bg-light mb-4 d-flex justify-content-center align-items-center" style="height: 300px; cursor:pointer">
+						<i class="fas fa-image fs-3"></i>
+					</div>
+					<div class="col-6 d-flex flex-column p-3 pt-0 align-items-start">
+						<label class="py-2 col-12" for="intro">회원소개</label>
+						<textarea class="h-25 border col-12" id="intro" name="intro"></textarea>
+						<label class="py-2 col-12" for="town">아이디 수정</label>
+						<input class="border col-12" type="text" id="town" name="town" value=test7>
+						<label class="py-2 col-12">이름수정</label>
+						<input class="border col-12" type="text" id="clubTag" name="clubTag" value=test7>
+						<input type="hidden" id="cleader" name="cleader">
+						<div class="passwordModify">
+							<a href="#">비밀번호 변경</a>
+						</div>
+					</div>
+					<div class="col-12 d-flex justify-content-end pe-3 py-1 mb-2">
+						<button class="p-2 px-3 btn border-0 bg-light">만들기</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 모임 만들기 폼 End -->
+       <!-- 끝 -->
+<script src="/resources/js/friend.js"></script>
+<script>
+$(function() {
+
+	$(".profileTab-club").on("click", function() {
+		console.log("모임리스트 출력하기~")
+		$(".profile-board").empty()
+		$(".profileTab-board").removeClass("border-3")
+		$(".profileTab-club").addClass("border-3")
+		if('true'){
+			clubService.getMyClubList({email: encodeURIComponent('test7')}, function(result){
+				for(let i in result){
+					console.log(result[i])
+					console.log(result[i].cname)
+				}
+			})
+		}
+	})
+	
+	$(".message-btn").on("click", function() {
+		messageService.chat({}, function(result) {
+			
+		})
+	})
+
+	/*-------------------------- 글 목록 -------------------------- */
+
+	boardService.getList({id : 'test7'}, function (result) {
+		let str = "";
+		for (let i in result) {
+			str += getMyFeedStr(result[i])
+		}
+		$(".profile-board").html(str)
+	})
+
+	$(".profileTab-board").click(function () {
+		$(".profileTab-board").addClass("border-3")
+		$(".profileTab-club").removeClass("border-3")
+		boardService.getList({id : 'test7'}, function (result) {
+			let str = "";
+			for (let i in result) {
+				str += getMyFeedStr(result[i])
+			}
+			$(".profile-board").html(str)
+		})
+	})
+
+	$(".profile-board").on("click", ".profileBoard", function () {
+		let src = $(this).data("src");
+		console.log(src)
+
+		boardService.get($(this).data("bno"), function (result) {
+			$("#boardModal").modal("show").data("bno", result.bno)
+			$("#detailImage").attr("src", src)
+			$("#writer").text(result.writer)
+			$("#content").text(result.content)
+			$("#regdate").text(moment(result.regdate).startOf('day').fromNow())
+			$("#modalFooter button").show()
+			$("#modalFooter button").eq(2).hide()
+			$("#boardModal").modal("show").data("bno", result.bno)
+
+			replyService.getList({bno:$("#boardModal").modal("show").data("bno"), rno:rno}, function(result) {
+				var str = "";
+				for(var i in result) {
+					str += getReplyLiStr(result[i]);
+				}
+				$(".chat").html(str);
+			})
+		})
+	})
+
+	// 내 글 목록 조회
+	function getMyFeedStr(obj) {
+		return `
+		<div class="col-4 overflow-hidden profileBoard" data-bno="${obj.bno}" data-src="/display?name=${obj.attaches[0]['name']}&path=${obj.attaches[0]['path']}&uuid=${obj.attaches[0]['uuid']}&image=${obj.attaches[0]['image']}&thumb=on">
+			<a>
+				<img class="p-1" src="/display?name=${obj.attaches[0]['name']}&path=${obj.attaches[0]['path']}&uuid=${obj.attaches[0]['uuid']}&image=${obj.attaches[0]['image']}&thumb=on">
+			</a>
+		</div>
+	`
+	}
+
+	// 댓글 리스트 조회
+	function getReplyLiStr(obj) {
+		return `<li class="list-group-item" style="border-bottom: 0" data-rno="${obj.rno}">
+			   		<div class="header">
+						<strong class="primary-font" data-writer="${obj.writer}">${obj.writer}</strong>
+						<small class="float-right text-muted">${moment(obj.regdate).fromNow()}</small>
+					</div>
+					<div class="d-flex">
+					<div class="col-9">
+					<span class="reply-content" data-content="${obj.content}">${obj.content}</span>
+					</div>
+					<div class="dropdown col-2 float-left">
+					  <a class="btn" data-toggle="dropdown">
+						<i class="fas fa-ellipsis-h dropicon"></i>
+					  </a>
+					  <div class="dropdown-menu">
+					    <a class="dropdown-item">답글 달기</a>
+					    <a class="dropdown-item" id="replymodify">수정</a>
+					    <a class="dropdown-item text-danger" id="replydelete">삭제</a>
+					  </div>
+					</div>
+					<div class="col-2">
+					<a><i class="far fa-heart" id="heart"></i></a></div></div>
+					</li>`;
+	}
+	
+	/* 프로핊 편집 클릭 -> 모달 메서드*/
+	$("#profileModify").on("click", function() {
+		$("#profileModifyModal").modal("show")
+		/* $("#clubcreate-form").submit(function() {
+			event.preventDefault();
+			
+		let checked = $("#status").is(':checked');
+		if(checked){
+			$("#status").val('true')
+		} else {
+			$("#status").val('false')
+		}
+			
+			clubService.register({
+			cname : $("#cname").val(),
+			intro : $("#intro").val(),
+			cleader : 'test7',
+			town : $("#town").val(),
+			status : $("#status").val()
+		},
+		function(result) {
+			clubMemberService.register({
+				member : result.cleader,
+				club : result.cno
+			}, function(resultCM) {
+				$(".clublist").append(getMyClubListStr(result))
+				})
+				$("#clubcreate-modal").modal("hide")
+				location.href = cp + "club/get/" + result.cno
+			}) 
+		}) */
+	})
+})
+
+</script>
+
+
+<!DOCTYPE html>
+            <!-- Footer Start -->
+            <div class="container-fluid footer" >
+                <div class="rounded-top p-4" >
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                            &copy; <a href="#">Your Site Name</a>, All Right Reserved. 
+                        </div>
+                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/resources/lib/easing/easing.min.js"></script>
+    <script src="/resources/lib/waypoints/waypoints.min.js"></script>
+    <script src="/resources/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/resources/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="/resources/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="/resources/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/resources/js/main_230404.js"></script>
+</body>
+
+</html>
