@@ -104,7 +104,7 @@
 
 #### :pushpin: 기능흐름 및 설명
 
-##### :small_blue_diamond: 게시물 : 사용자는 게시물을 작성하고, 수정하거나 삭제할 수 있습니다. 또한, 다른 사용자가 작성한 게시물을 읽을 수 있습니다. 사용자는 게시물 피드를 스크롤하면서 더 많은 게시물을 로드할 수 있습니다. 페이징 처리를 통한 통합 데이터 요청을 최적화 합니다. 또한 하트로 좋아요를 표시할 수 있습니다
+#### :small_blue_diamond: 게시물 : 사용자는 게시물을 작성하고, 수정하거나 삭제할 수 있습니다. 또한, 다른 사용자가 작성한 게시물을 읽을 수 있습니다. 사용자는 게시물 피드를 스크롤하면서 더 많은 게시물을 로드할 수 있습니다. 페이징 처리를 통한 통합 데이터 요청을 최적화 합니다. 또한 하트로 좋아요를 표시할 수 있습니다
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/39c28d1e-3317-4d68-b39a-283266b76a78">
 <br>
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/62326fda-4882-4a2e-8dfd-1ce69e55a917">
@@ -115,7 +115,7 @@
 <br>
 <br>
 
-##### :small_blue_diamond: 댓글 CRUD의 비동기 처리 : 사용자는 게시물에 대한 댓글을 작성하고, 수정하거나 삭제할 수 있습니다, 이때 비동기 처리를 통해 웹 페이지의 새로고침 없이 댓글 작성/수정/삭제를 실시간으로 반영합니다 또한 옆 하트로 좋아요를 표시할 수 있습니다
+#### :small_blue_diamond: 댓글 CRUD의 비동기 처리 : 사용자는 게시물에 대한 댓글을 작성하고, 수정하거나 삭제할 수 있습니다, 이때 비동기 처리를 통해 웹 페이지의 새로고침 없이 댓글 작성/수정/삭제를 실시간으로 반영합니다 또한 옆 하트로 좋아요를 표시할 수 있습니다
 
 <img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea961ba5-573f-4450-b874-bf65a567017b">
 <br>
@@ -132,7 +132,7 @@
 <br>
 <br>
 
-##### :small_blue_diamond: 모임기능 : 사용자는 모임을 생성하거나 가입할 수 있습니다 모임 내에서 맴버들은 소통하고 정보를 공유할 수 있습니다, 또한 비밀모임과 공개모임으로 설정이 가능합니다, 자기가 모임의 리더라면 왕관이 표시되게 됩니다
+#### :small_blue_diamond: 모임기능 : 사용자는 모임을 생성하거나 가입할 수 있습니다 모임 내에서 맴버들은 소통하고 정보를 공유할 수 있습니다, 또한 비밀모임과 공개모임으로 설정이 가능합니다, 자기가 모임의 리더라면 왕관이 표시되게 됩니다
 
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/9b329353-9cc7-4913-9ebf-9fc4594ff05a">
 <br>
@@ -158,14 +158,14 @@
 <br>
 <br>
 
-##### :small_blue_diamond: 실시간 알림 기능 : 사용자는 메시지, 좋아요, 댓글 등의 알림을 실시간으로 받을 수 있습니다. 이를 통해 다른 사용자와 상호작용을 즉시 확인할 수 있습니다 
+#### :small_blue_diamond: 실시간 알림 기능 : 사용자는 메시지, 좋아요, 댓글 등의 알림을 실시간으로 받을 수 있습니다. 이를 통해 다른 사용자와 상호작용을 즉시 확인할 수 있습니다 
 
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/45d5a1cf-6e15-4ac2-8db4-6b587ae42362">
 
 <br>
 <br>
 
-##### :small_blue_diamond: 실시간 채팅 기능 : 사용자는 실시간으로 채팅을 주고받을 수 있습니다. 이를 통해 사용자들 간의 실시간 소통이 가능해집니다. 대화하고자 하는 회원을 선택할 수 있습니다
+#### :small_blue_diamond: 실시간 채팅 기능 : 사용자는 실시간으로 채팅을 주고받을 수 있습니다. 이를 통해 사용자들 간의 실시간 소통이 가능해집니다. 대화하고자 하는 회원을 선택할 수 있습니다
 
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/629b21ef-4aeb-4480-bfa1-e1caaa437f54">
 <br>
