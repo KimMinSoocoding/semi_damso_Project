@@ -134,25 +134,23 @@
 
 #### :small_blue_diamond: 모임기능 : 사용자는 모임을 생성하거나 가입할 수 있습니다 모임 내에서 맴버들은 소통하고 정보를 공유할 수 있습니다, 또한 비밀모임과 공개모임으로 설정이 가능합니다, 자기가 모임의 리더라면 왕관이 표시되게 됩니다
 
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/9b329353-9cc7-4913-9ebf-9fc4594ff05a">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/23c7a26f-c004-4c4e-8bc1-d761bdf330ca">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/23c7a26f-c004-4c4e-8bc1-d761bdf330ca">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/6748df2f-ac79-4f15-ac93-f41f1545d60a">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/6748df2f-ac79-4f15-ac93-f41f1545d60a">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/dcf10d89-df55-4fa2-8f83-7724f45c6e25">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/dcf10d89-df55-4fa2-8f83-7724f45c6e25">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/c2924644-eb9e-4b67-871f-04d50473a07b">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/c2924644-eb9e-4b67-871f-04d50473a07b">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/5d54847a-5c13-4dbf-9c7e-809b7d225cac">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/5d54847a-5c13-4dbf-9c7e-809b7d225cac">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3e670efa-899e-4820-af29-959c8b17cd4f">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3e670efa-899e-4820-af29-959c8b17cd4f">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/83e201f6-f812-4f05-9cf5-91a8580c6f5e">
 <br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/83e201f6-f812-4f05-9cf5-91a8580c6f5e">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3960b07f-ae82-4d89-9bb9-f1bde9a3b07c">
 <br>
-<img width="456" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3960b07f-ae82-4d89-9bb9-f1bde9a3b07c">
-<br>
-<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/89633552-cb3d-493d-9c45-42b99e95b840">
+<img width="380" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/89633552-cb3d-493d-9c45-42b99e95b840">
 
 
 <br>
@@ -173,10 +171,35 @@
 
 
 
-
-
-
-
-
 ## :eight_pointed_black_star: 본인 담당파트(회원) 시연
+
+#### :small_blue_diamond: 회원기능 : 자동로그인, 회원가입, 아이디 찾기, 비밀번호 재설정, 비밀번호 시큐리티, 가입시 이메일 인증번호 발송, 회원검색, 회원수정, 회원탈퇴 기능을 구현하였습니다 
+
+<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ef821838-34af-46a4-a588-866535b2c206">
+<br>
+<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/e9142748-01d7-4e9e-900e-2125a2ffd369">
+<br>
+<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/7241fd1d-a935-410d-b7e3-d9f8741fa40d">
+<br>
+<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/185d4a4a-debc-4774-9e72-27781ca9ca10">
+<br>
+<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea84edc3-354d-428d-a93f-e41a5e82d099">
+<br>
+<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/1a7e2ad5-d661-4a46-a21d-1d1108376bf2">
+<br>
+<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/87978ae5-65d0-4c4d-94cd-4a3e997f51b3">
+<br>
+<img width="270" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/b3c97a2a-5d3d-41b1-8fe8-fda160e33b00">
+<br>
+<img width="270" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/0600b120-1d45-46d2-aad0-8c81d301230d">
+<br>
+<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/d052498f-78d4-4e67-98c1-523459cba988">
+<br>
+<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/a6cac596-fe1e-45fa-80a0-4b84e0dbc3ec">
+<br>
+<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/469eaa9c-4c0a-44f3-81d8-3dcfa06882d6">
+
+
+
+
 
