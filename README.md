@@ -108,6 +108,32 @@
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/62326fda-4882-4a2e-8dfd-1ce69e55a917">
 <br>
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/0290fdf7-5cb0-44e3-aef1-4e9eca334466">
+<br>
+:small_blue_diamond: 게시물 : 사용자는 게시물을 작성하고, 수정하거나 삭제할 수 있습니다. 또한, 다른 사용자가 작성한 게시물을 읽을 수 있습니다. 사용자는 게시물 피드를 스크롤하면서 더 많은 게시물을 로드할 수 있습니다. 페이징 처리를 통한 통합 데이터 요청을 최적화 합니다. 또한 하트로 좋아요를 표시할 수 있습니다
+
+<br>
+<br>
+<br>
+
+<img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea961ba5-573f-4450-b874-bf65a567017b">
+<br>
+<img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/e89d1de3-f6ee-46dc-9a77-880ba3dd18be">
+<br>
+<img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/eee1f556-c4fe-472f-87cc-afbbf6ee75cd">
+<br>
+<img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/992b7691-2892-4059-9c6d-0e32617f4151">
+<br>
+<img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3216887d-96a2-4b53-ad55-0cf77ad63be8">
+<br>
+:small_blue_diamond: 댓글 CRUD의 비동기 처리 : 사용자는 게시물에 대한 댓글을 작성하고, 수정하거나 삭제할 수 있습니다, 이때 비동기 처리를 통해 웹 페이지의 새로고침 없이 
+댓글 작성/수정/삭제를 실시간으로 반영합니다 또한 옆 하트로 좋아요를 표시할 수 있습니다
+
+<br>
+<br>
+<br>
+
+
+
 
 
 
