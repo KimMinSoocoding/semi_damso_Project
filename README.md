@@ -50,6 +50,14 @@
 
 <br>
 
+## 목차
+1. [프로젝트 명](#-🖥️-프로젝트-명)
+2. [개발기간](#-🕰️-개발-기간)
+3. [맴버구성](#-🧑‍🤝‍🧑-맴버구성)
+4. [프로젝트_요구사항분석_인터페이스명세서_업무분장_테스트케이스_스케쥴 엑셀파일](###-:floppy_disk:-프로젝트_요구사항분석_인터페이스명세서_업무분장_테스트케이스_스케쥴-엑셀파일)
+
+<br>
+
 ## 🖥️  프로젝트 명
 모임형 SNS 담소(담아요 소소한 이야기) - [인스타그램 참고] 
 - 직접 제작한 로고
@@ -108,7 +116,7 @@
 
 #### :ballot_box_with_check: 회원기능 : 자동로그인, 회원가입, 아이디 찾기, 비밀번호 재설정, 비밀번호 시큐리티, 가입시 이메일 인증번호 발송, 회원검색, 회원수정, 회원탈퇴 기능을 구현하였습니다 
 
-<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ef821838-34af-46a4-a588-866535b2c206">
+<img width="300" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ef821838-34af-46a4-a588-866535b2c206">
 <br>
 
 #### :notebook: 회원가입 : 이메일+인증번호, 이름, 닉네임, 비밀번호를 받아 유효성검사가 통과되면 회원가입을 진행합니다
@@ -118,27 +126,27 @@
 
 #### :notebook: 이메일 인증번호 : 이메일로 전송된 이메일 인증번호 입니다
 <br>
-<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/7241fd1d-a935-410d-b7e3-d9f8741fa40d">
+<img width="400" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/7241fd1d-a935-410d-b7e3-d9f8741fa40d">
 <br>
 
 #### :notebook: 자동로그인 : 홈페이지를 나가더라도 자동으로 로그인되는 기능입니다, 로그아웃시 해당 세션 및 쿠키를 삭제하기에 로그아웃후 자동로그인을 하려면 다시 체크후 로그인을 해야합니다, 또한 기본 로그인시에도 남아있던 세션 및 쿠키가 남아있는지 검증후 삭제 -> 로그인을 진행하게 됩니다
 <br>
-<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/185d4a4a-debc-4774-9e72-27781ca9ca10">
+<img width="400" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/185d4a4a-debc-4774-9e72-27781ca9ca10">
 <br>
 
 #### :notebook: 비밀번호 재설정 : 가입한 이메일로 임시비밀번호를 전송합니다 
 <br>
-<img width="500" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea84edc3-354d-428d-a93f-e41a5e82d099">
+<img width="400" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea84edc3-354d-428d-a93f-e41a5e82d099">
 <br>
 
 #### :notebook: 아이디 찾기 : 가입한 email과 이름을 받아 아이디를 찾아줍니다
 <br>
-<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/1a7e2ad5-d661-4a46-a21d-1d1108376bf2">
+<img width="400" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/1a7e2ad5-d661-4a46-a21d-1d1108376bf2">
 <br>
 
 #### :notebook: 임시비밀번호 : 이메일로 전송된 임시 비밀번호 입니다
 <br>
-<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/87978ae5-65d0-4c4d-94cd-4a3e997f51b3">
+<img width="400" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/87978ae5-65d0-4c4d-94cd-4a3e997f51b3">
 <br>
 
 #### :notebook: 회원검색 : 회원아이디를 입력하게되면 실시간 비동기로 검색된 회원 목록이 나오게 됩니다
@@ -153,17 +161,17 @@
 
 #### :notebook: 본인 프로필 : 본인 프로필에서는 프로필 편집버튼만 보이게되며 편집을 진행할 수 있습니다
 <br>
-<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/d052498f-78d4-4e67-98c1-523459cba988">
+<img width="400" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/d052498f-78d4-4e67-98c1-523459cba988">
 <br>
 
 #### :notebook: 프로필 수정 : 소개, 닉네임, 이름을 수정할 수 있습니다 해당 수정모달에서 비밀번호 변경과 탈퇴또한 진행할 수 있습니다
 <br>
-<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/a6cac596-fe1e-45fa-80a0-4b84e0dbc3ec">
+<img width="400" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/a6cac596-fe1e-45fa-80a0-4b84e0dbc3ec">
 <br>
 
 #### :notebook: 비밀번호 변경 : 회원이 바꾸고자하는 비밀번호를 받아 변경을 진행합니다
 <br>
-<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/469eaa9c-4c0a-44f3-81d8-3dcfa06882d6">
+<img width="400" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/469eaa9c-4c0a-44f3-81d8-3dcfa06882d6">
 <br>
 
 #### :notebook: 회원탈퇴 : 회원이 남긴 흔적을 삭제후 탈퇴를 진행합니다
