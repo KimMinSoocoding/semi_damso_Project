@@ -66,10 +66,12 @@
 ## 🖥️  프로젝트 명
 모임형 SNS 담소(담아요 소소한 이야기) - [인스타그램 참고] 
 - `직접 제작한 로고`
-- ![제목_없는_아트워크](https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3e4c7405-2fdb-43c2-80b5-776d5b7fe094)
+<img width="500" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/cd6c883c-53ef-4cf3-8183-d4fddb715c67">
 
 </br>
 
+## :arrows_clockwise: 테이블관계도 ERD
+<img width="700" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea3178dd-d940-4d42-90cf-c2dc43247aff">
 
 ## 🕰️ 개발 기간
 * 23.04.02 - 22.05.03일
