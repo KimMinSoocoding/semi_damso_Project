@@ -103,17 +103,19 @@
   했습니다. 또한, 각 모임마다 특별한 기능이나 장점을 강조하여 사용자들에게 모임의 매력을 전달하고자 했지만 구현하지 못한 아쉬움이 남습니다 
 
 #### :pushpin: 기능흐름 및 설명
+
+##### :small_blue_diamond: 게시물 : 사용자는 게시물을 작성하고, 수정하거나 삭제할 수 있습니다. 또한, 다른 사용자가 작성한 게시물을 읽을 수 있습니다. 사용자는 게시물 피드를 스크롤하면서 더 많은 게시물을 로드할 수 있습니다. 페이징 처리를 통한 통합 데이터 요청을 최적화 합니다. 또한 하트로 좋아요를 표시할 수 있습니다
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/39c28d1e-3317-4d68-b39a-283266b76a78">
 <br>
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/62326fda-4882-4a2e-8dfd-1ce69e55a917">
 <br>
 <img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/0290fdf7-5cb0-44e3-aef1-4e9eca334466">
 <br>
-:small_blue_diamond: 게시물 : 사용자는 게시물을 작성하고, 수정하거나 삭제할 수 있습니다. 또한, 다른 사용자가 작성한 게시물을 읽을 수 있습니다. 사용자는 게시물 피드를 스크롤하면서 더 많은 게시물을 로드할 수 있습니다. 페이징 처리를 통한 통합 데이터 요청을 최적화 합니다. 또한 하트로 좋아요를 표시할 수 있습니다
 
 <br>
 <br>
-<br>
+
+##### :small_blue_diamond: 댓글 CRUD의 비동기 처리 : 사용자는 게시물에 대한 댓글을 작성하고, 수정하거나 삭제할 수 있습니다, 이때 비동기 처리를 통해 웹 페이지의 새로고침 없이 댓글 작성/수정/삭제를 실시간으로 반영합니다 또한 옆 하트로 좋아요를 표시할 수 있습니다
 
 <img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/ea961ba5-573f-4450-b874-bf65a567017b">
 <br>
@@ -125,13 +127,49 @@
 <br>
 <img width="207" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3216887d-96a2-4b53-ad55-0cf77ad63be8">
 <br>
-:small_blue_diamond: 댓글 CRUD의 비동기 처리 : 사용자는 게시물에 대한 댓글을 작성하고, 수정하거나 삭제할 수 있습니다, 이때 비동기 처리를 통해 웹 페이지의 새로고침 없이 
-댓글 작성/수정/삭제를 실시간으로 반영합니다 또한 옆 하트로 좋아요를 표시할 수 있습니다
+
 
 <br>
 <br>
+
+##### :small_blue_diamond: 모임기능 : 사용자는 모임을 생성하거나 가입할 수 있습니다 모임 내에서 맴버들은 소통하고 정보를 공유할 수 있습니다, 또한 비밀모임과 공개모임으로 설정이 가능합니다, 자기가 모임의 리더라면 왕관이 표시되게 됩니다
+
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/9b329353-9cc7-4913-9ebf-9fc4594ff05a">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/23c7a26f-c004-4c4e-8bc1-d761bdf330ca">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/6748df2f-ac79-4f15-ac93-f41f1545d60a">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/dcf10d89-df55-4fa2-8f83-7724f45c6e25">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/c2924644-eb9e-4b67-871f-04d50473a07b">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/5d54847a-5c13-4dbf-9c7e-809b7d225cac">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3e670efa-899e-4820-af29-959c8b17cd4f">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/83e201f6-f812-4f05-9cf5-91a8580c6f5e">
+<br>
+<img width="456" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3960b07f-ae82-4d89-9bb9-f1bde9a3b07c">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/89633552-cb3d-493d-9c45-42b99e95b840">
+
+
+<br>
 <br>
 
+##### :small_blue_diamond: 실시간 알림 기능 : 사용자는 메시지, 좋아요, 댓글 등의 알림을 실시간으로 받을 수 있습니다. 이를 통해 다른 사용자와 상호작용을 즉시 확인할 수 있습니다 
+
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/45d5a1cf-6e15-4ac2-8db4-6b587ae42362">
+
+<br>
+<br>
+
+##### :small_blue_diamond: 실시간 채팅 기능 : 사용자는 실시간으로 채팅을 주고받을 수 있습니다. 이를 통해 사용자들 간의 실시간 소통이 가능해집니다. 대화하고자 하는 회원을 선택할 수 있습니다
+
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/629b21ef-4aeb-4480-bfa1-e1caaa437f54">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/45ea3f69-c1a1-4741-8983-693b9eccd8e2">
 
 
 
@@ -139,4 +177,6 @@
 
 
 
-##  프로젝트 담당파트 시연
+
+## :eight_pointed_black_star: 본인 담당파트(회원) 시연
+
