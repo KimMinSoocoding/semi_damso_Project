@@ -55,9 +55,13 @@
 - 직접 제작한 로고
 - ![제목_없는_아트워크](https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/3e4c7405-2fdb-43c2-80b5-776d5b7fe094)
 
+</br>
+
 
 ## 🕰️ 개발 기간
 * 23.04.02 - 22.05.03일
+
+</br>
 
 ### 🧑‍🤝‍🧑 맴버구성
  - 팀장  : 김설하 - 게시판(피드), 알림
@@ -66,8 +70,12 @@
  - 팀원3 : 박현민 - 댓글 CRUD
  - 팀원4 : 천은경 - 모임 CRUD, 메시지(채팅)
 
+</br>
+
 ### :floppy_disk:  프로젝트_요구사항분석_인터페이스명세서_업무분장_테스트케이스_스케쥴 엑셀파일
 [세미 - SNS.xlsx](https://github.com/KimMinSoocoding/semi_damso_Project/files/12011243/-.SNS.xlsx)
+
+</br>
 
 ### :computer: 개발 프로그램
 - jsp / Servlet
@@ -80,10 +88,29 @@
 - JavaScript / JQuery <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jQuery&logoColor=white" />
 
 ## :laughing: 프로젝트 설명
-#### 주제선정
-- 
-#### 기능흐름 및 설명
-- 
+#### :pushpin: 주제선정 이유 
+- :one: 팀원모두 사람들이 모여 소통하고 정보를 공유하는 플랫폼에 대한 관심과 현재 사용하고 있는 사람들이 다수 있어 흥미를 가지고 적극적인 참여가 가능했습니다
+- :two: 모임형 SNS는 구현 가능성이 높았습니다 Jsp,Servlet,Mybatis,Spring를 활용한 여러 실습들을 응용하여 구현가능성을 높였으며 널리 사용되고 문서화되어 적절한 자료와 커뮤니티 지원을받을 수 있었습니다
+- :three: 모임형 SNS는 다양한 사용자들에게 유용한 서비스가 될 수 있습니다 많은 사람들이 인스타그램과 같은 sns를 이용하지만 주요 인플루언서를 제외한 일반인은 실제 친구들을 중심으로만 형성되어
+있습니다 하지만 각 관심있는 모임을 형성하여 친구를 맺는다면 사용자들의 필요성을 충족시킬 수 있다고 생각했습니다 또한 이 프로젝트는 기존의 기능을 확장하거나 추가적인 기능을 쉽게 
+구현할 수 있는 확장 가능한 구조를 가질 것을 기대하였습니다
+
+#### 📌 추가적으로 구현하고 싶은 기능 
+- :arrow_forward: 카테고리별 알고리즘피드: 가입한 모임의 카테고리 종류에 따라 알고리즘을 활용하여 사용자에게 해당 모임과 관련된 콘텐츠를 제공하고자 했습니다
+  스포츠 모임에 가입한 사용자에게는 스포츠 관련 이벤트, 경기결과, 최신 소식 등을 알려주는 기능을 구현하지 못한 아쉬움이 남습니다
+  <br>
+- :arrow_forward: 모임 상태 정보 : 모임의 상태 정보를 추가하고자 했습니다, 예를들어 모임의 마지막 활동 기간을 표시하여 사용자들이 모임의 활발성을 파악할 수 있도록 하고자
+  했습니다. 또한, 각 모임마다 특별한 기능이나 장점을 강조하여 사용자들에게 모임의 매력을 전달하고자 했지만 구현하지 못한 아쉬움이 남습니다 
+
+#### :pushpin: 기능흐름 및 설명
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/39c28d1e-3317-4d68-b39a-283266b76a78">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/62326fda-4882-4a2e-8dfd-1ce69e55a917">
+<br>
+<img width="463" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/0290fdf7-5cb0-44e3-aef1-4e9eca334466">
 
 
-## 📌 프로젝트 시연
+
+
+
+##  프로젝트 담당파트 시연
