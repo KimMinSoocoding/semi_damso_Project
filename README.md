@@ -65,6 +65,9 @@
 
 ## :ticket: AWS 리눅스 배포 담소주소
 - https://damso.sionms.co.kr/member/login
+- 아래 아이디로 접속 <br>
+  <img width="300" alt="image" src="https://github.com/KimMinSoocoding/semi_damso_Project/assets/113892151/fbe10f6b-efe1-465c-8f8f-a9707d9ece4d">
+
 
 <br>
 
