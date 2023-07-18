@@ -63,6 +63,11 @@
 
 <br>
 
+## :ticket: AWS 리눅스 배포 담소주소
+- https://damso.sionms.co.kr/member/login
+
+<br>
+
 ## 🖥️  프로젝트 명
 모임형 SNS 담소(담아요 소소한 이야기) - [인스타그램 참고] 
 - `직접 제작한 로고`
